@@ -1,0 +1,41 @@
+# ===== Keil MDK build artifacts / cache =====
+Objects/
+Listings/
+*.o
+*.obj
+*.crf
+*.d
+*.lst
+*.htm
+*.bak
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lnp
+*.iex
+*.sct
+*.scvd
+*.dep
+*.build_log.htm
+
+# Keil user-private / window-layout cache (contains local username)
+*.uvguix.*
+*.uvopt
+*.uvoptx
+DebugConfig/
+RTE/_*/
+EventRecorderStub.scvd
+
+# ===== MATLAB / Simulink =====
+slprj/
+*.slx.r20*
+*.slx.original
+*.asv
+*.autosave
+*.slxc
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
